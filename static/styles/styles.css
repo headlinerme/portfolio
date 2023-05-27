@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    color: #ddd;
+    background-color: #111;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background: none;
+}
+
+.nav-bar {
+    padding: 25px 0;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #fff;
+    font-size: 14px;
+    transition: 1s;
+}
+
+.main {
+    padding: 50px 0;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    margin-right: 20%;
+}
+
+.main-pretitle {
+    font-size: 14px;
+    letter-spacing: 3px;
+    opacity: 40%;
+}
+
+.main-title {
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.main-subtitle {
+    font-size: 16px;
+    opacity: 60%;
+    margin-bottom: 30px;
+}
+
+.main-button {
+    font-size: 17px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 8px 22px;
+    border: 1px solid #ddd;
+}
+
+.main-button:hover {
+    color: #111;
+    background-color: #ddd;
+    transition: 1s;
+}
+
+.main-image {
+    background: none;
+}
+
+.main-image img {
+    border-radius: 175px;
+}
+
+.main-links {
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-links a {
+    opacity: 50%;
+    margin-bottom: 20px;
+}
+
+.main-links a:hover {
+    opacity: 100%;
+    transition: 1s;
+}
+
+.about {
+    margin-top: -3.3px;
+    padding: 100px 0;
+    background: linear-gradient(#111, #000, #000, #000, #000, #000, #111);
+}
+
+.about-content {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-left {
+    background: none;
+    width: 43%;
+    margin-right: 5%;
+}
+
+.about-title {
+    color: #ddd;
+    background: none;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    opacity: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #000;
+    background-color: #fff;
+}
+
+.about-text img {
+    width: 100%;
+    background-color: #000;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.about-text p{
+    padding: 20px;
+    padding-top: 5px;
+    color: #000;
+    background-color: #fff;
+}
+
+.about-photos {
+    background: none;
+    display: flex;
+    align-items: last baseline;
+}
+
+.about-photos img {
+    margin: 5px;
+}
+
+.c-photos {
+    display: flex;
+    flex-direction: column;
+    background: none;
+}
+
+.stack {
+    padding: 50px 0;
+}
+
+.stack-title {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #ddd;
+}
+
+.stack-cards {
+    padding-top: 20px;
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+}
+
+.stack-card {
+    width: 25%;
+    text-align: center;
+}
+
+.stack-card img {
+    margin-bottom: 10px;
+}
+
+.stack-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.stack-card p:first-of-type {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.portfolio {
+    padding: 100px 0;
+    background: linear-gradient(#111, #111, #000, #000, #000);
+}
+
+.portfolio-title {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    background: none;
+    font-size: 40px;
+    font-weight: 600;
+    border-bottom: 3px solid #ddd;
+    margin-bottom: 50px;
+}
+
+.portfolio-content {
+    display: flex;
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.portfolio-text {
+    font-size: 20px;
+    background: none;
+    margin-right: 10%;
+}
+
+.portfolio-content a, .portfolio-content img {
+    opacity: 50%;
+    background: none;
+}
+
+.portfolio-content a:hover {
+    opacity: 100%;
+    transition: 0.5s;
+}
